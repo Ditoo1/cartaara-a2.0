@@ -72,3 +72,9 @@ hr {
 h2 {
   margin-bottom: 0%;
 }
+img {
+    padding: 5px;
+    max-width: 100%;
+    margin-bottom: -8%;
+    margin-top: -5%;
+}
