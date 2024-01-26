@@ -50,15 +50,22 @@ body {
   font-family: "Dosis", sans-serif;
   line-height:1.4em;
   color: rgb(255, 255, 255);
+  user-select: none;
 }
 
 p {
   margin-top:-10px;
   color: #dadada;
   font-size: 18px;
+  user-select: none;
 }
 i {
   font-family: Rubik;
   color: #e2e2e2;
   font-weight: bold;
+  user-select: none;
+}
+hr {  
+  margin-right: 30%;
+  margin-bottom: 10%;
 }
