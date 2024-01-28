@@ -46,7 +46,30 @@ body {
   color: #000;
 }
 
-.platos {
+.seccion-comida .platos {
+  font-family: "Dosis", sans-serif;
+  line-height:1.4em;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+
+.seccion-tragos .platos {
+  font-family: "Dosis", sans-serif;
+  line-height:1.4em;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+
+.seccion-bebidas {
+  font-family: "Dosis", sans-serif;
+  line-height:1.4em;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.seccion-bebidas h2 {
   font-family: "Dosis", sans-serif;
   line-height:1.4em;
   color: rgb(255, 255, 255);
