@@ -114,6 +114,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 6%;
+  font-weight: bold;
 }
 
 .switch-field input {
