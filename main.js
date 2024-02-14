@@ -64,6 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 break;
             case "tragos":
                 seccionTragos.style.display = "block";
+                // Añadir la clase 'cocteleriaclasica' al cambiar a la sección 'seccionTragos'
+                document.querySelector(".cocteleriaclasica").style.display = "block";
                 break;
             default:
                 // Manejar cualquier otro caso según sea necesario
