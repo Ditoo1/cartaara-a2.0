@@ -1,7 +1,10 @@
-body {
+html {
   background-color: #131313;
 }
 
+body {
+  background-color: #131313;
+}
 
 .scrollable-tabs-container {
   font-family: "Dosis", sans-serif;
@@ -44,6 +47,7 @@ body {
 .scrollable-tabs-container a.active {
   background: #fff;
   color: #000;
+  transition: .5s;
 }
 
 .seccion-comida .platos {
@@ -51,6 +55,15 @@ body {
   line-height:1.4em;
   color: rgb(255, 255, 255);
   user-select: none;
+}
+
+.seccion-noche {
+  font-family: "Dosis", sans-serif;
+  line-height:1.4em;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  margin-top: 8%;
+  margin-left: 100% 0%;
 }
 
 .seccion-tragos .platos {
@@ -70,6 +83,22 @@ body {
 }
 
 .seccion-bebidas h2 {
+  font-family: "Dosis", sans-serif;
+  line-height:1.4em;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+
+.seccion-vinos {
+  font-family: "Dosis", sans-serif;
+  line-height:1.4em;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.seccion-vinos h2 {
   font-family: "Dosis", sans-serif;
   line-height:1.4em;
   color: rgb(255, 255, 255);
@@ -125,7 +154,7 @@ img {
 }
 .switch-field {
   display: flex;
-  margin-bottom: -4%;
+  margin-bottom: vh;
   overflow: hidden;
   align-items: center;
   justify-content: center;
@@ -147,14 +176,16 @@ img {
   font-family: Dosis;
   background-color: #333333;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 15px;
   line-height: .8;
   text-align: center;
-  padding: 8px 40px;
+  white-space: nowrap;
+  padding: 10px 35px;
   margin-right: -1px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
   box-shadow: #000;
+  transition: .2s;
 }
 
 .switch-field label:hover {
@@ -195,7 +226,7 @@ img {
 
 .switch-field2 input:checked + label {
   background-color: #ff56ff;
-  box-shadow: 0 5px 50px 0 #442e80 inset, 0 5px 50px #ff56ff;
+  box-shadow: 0 5px 50px 0 #442e80 inset, 0 5px 50px #ff81ff;
   transition: 1s;
   color: rgb(255, 255, 255)
 }
