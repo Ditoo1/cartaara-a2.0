@@ -3,20 +3,14 @@ document.addEventListener('DOMContentLoaded', async function () {
   const subSectionSwitcher = document.querySelector('.switch-field2');
   const content = document.querySelector('.menu-content');
 
-  // 1. Importa el cliente Supabase (añade esto en tu HTML)
-  // <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
-
-  // 2. Configura Supabase
   const supabaseUrl = 'https://gutkmqzszforlhgesrei.supabase.co';
   const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd1dGttcXpzemZvcmxoZ2VzcmVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5ODI3MTMsImV4cCI6MjA2MjU1ODcxM30.kKl4deZplQMq_vPBVsMIRuPLkhQ177TNT-ahMXS-jyQ';
-  
-  // 3. Inicializa Supabase correctamente
+
   const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
   let menuData;
 
   try {
-    // 4. Obtener datos
     const { data, error } = await supabase
       .from('menu_data')
       .select('menu_json')
@@ -34,10 +28,10 @@ document.addEventListener('DOMContentLoaded', async function () {
     return;
   }
 
-  // Resto del código de renderizado del menú (sin cambios)
+  // renderizado del menú
   renderSidebar();
   
-  // Renderizar la barra lateral principal
+  // barra lateral p
   function renderSidebar() {
     sidebar.innerHTML = '';
     for (const [sectionKey, sectionData] of Object.entries(menuData.menu.secciones)) {
@@ -67,7 +61,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       });
     }
 
-    // Activar la primera sección por defecto
+    // primera secciopn por defecot
     const firstInput = sidebar.querySelector('input');
     if (firstInput) {
       firstInput.checked = true;
@@ -76,7 +70,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   }
 
-  // Renderizar subsecciones
+  // render subsecciones
   function renderSubSectionSwitch(sectionKey, subSections) {
     subSectionSwitcher.innerHTML = '';
     subSectionSwitcher.classList.remove('hidden');
@@ -104,7 +98,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       subSectionSwitcher.appendChild(label);
     }
 
-    // Activar la primera subsección por defecto
+    // primera subseccion default
     const firstSubInput = subSectionSwitcher.querySelector('input');
     if (firstSubInput) {
       firstSubInput.checked = true;
@@ -112,29 +106,26 @@ document.addEventListener('DOMContentLoaded', async function () {
       firstSubInput.dispatchEvent(event);
     }
 
-    // Desplazar al inicio en móviles
+
     if (window.innerWidth <= 480) {
       subSectionSwitcher.scrollLeft = 0;
     }
   }
 
-  // Renderizar contenido de una sección con subsecciones
+
   function renderSectionContent(sectionKey, subSectionKey) {
     const sectionData = menuData.menu.secciones[sectionKey].subsecciones[subSectionKey];
     content.innerHTML = '';
 
-    // Primero renderizamos los productos principales si existen
+
     if (sectionData.productos && sectionData.productos.length > 0) {
       renderProducts(sectionData.productos);
     }
     
-    // Luego renderizamos cada categoría especial
     for (const [categoryKey, categoryData] of Object.entries(sectionData)) {
       if (categoryKey !== 'nombre' && categoryKey !== 'productos' && Array.isArray(categoryData)) {
-        // Creamos un título para la categoría
         const categoryTitle = document.createElement('h1');
         categoryTitle.className = 'category-title';
-        // Formateamos el título (reemplazamos _ y capitalizamos)
         categoryTitle.textContent = formatCategoryName(categoryKey);
         content.appendChild(categoryTitle);
         
@@ -143,13 +134,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   }
   
-  // Formatear nombres de categoría
   function formatCategoryName(name) {
     return name.replace(/_/g, ' ')
               .replace(/\b\w/g, l => l.toUpperCase());
   }
-  
-  // Renderizar lista de productos
+
   function renderProducts(products, categoryName = null) {
     const productList = document.createElement('ul');
     productList.className = 'product-list';
@@ -164,7 +153,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       
       listItem.appendChild(productTitle);
       
-      // Añadir el separador debajo del nombre
       const separator = document.createElement('hr');
       separator.className = 'menu-separator';
       listItem.appendChild(separator);
@@ -194,14 +182,14 @@ document.addEventListener('DOMContentLoaded', async function () {
     content.appendChild(productList);
   }
   
-  // Renderizar contenido directo de productos
+
   function renderProductsContent(sectionKey, products) {
     content.innerHTML = '';
     
     if (Array.isArray(products)) {
       renderProducts(products);
     } else {
-      // Si no es un array, asumimos que es un objeto con categorías
+
       for (const [categoryKey, categoryData] of Object.entries(products)) {
         if (Array.isArray(categoryData)) {
           const categoryTitle = document.createElement('h2');
@@ -215,6 +203,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   }
   
-  // Inicializar la aplicación
+
   renderSidebar();
 });
