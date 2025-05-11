@@ -3,95 +3,34 @@ document.addEventListener('DOMContentLoaded', async function () {
   const subSectionSwitcher = document.querySelector('.switch-field2');
   const content = document.querySelector('.menu-content');
 
-  // Configuración de Supabase (usa variables de entorno en producción)
-  const SUPABASE_URL = 'https://gutkmqzszforlhgesrei.supabase.co';
-  const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd1dGttcXpzemZvcmxoZ2VzcmVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5ODI3MTMsImV4cCI6MjA2MjU1ODcxM30.kKl4deZplQMq_vPBVsMIRuPLkhQ177TNT-ahMXS-jyQ';
-  const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+  // 1. Importa el cliente Supabase (añade esto en tu HTML)
+  // <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+  // 2. Configura Supabase
+  const supabaseUrl = 'https://tu-proyecto.supabase.co';
+  const supabaseKey = 'tu-clave-publica-anon-key';
+  
+  // 3. Inicializa Supabase correctamente
+  const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
   let menuData;
 
   try {
-    // Obtener datos de Supabase y transformar a tu estructura
-    const { data: sections, error } = await supabase
-      .from('menu_sections')
-      .select(`
-        id,
-        name,
-        order,
-        menu_sub_sections (
-          id,
-          name,
-          order,
-          menu_products (
-            id,
-            name,
-            description,
-            price,
-            category
-          )
-        )
-      `)
-      .order('order', { ascending: true });
+    // 4. Obtener datos
+    const { data, error } = await supabase
+      .from('menu_data')
+      .select('menu_json')
+      .order('last_updated', { ascending: false })
+      .limit(1);
 
     if (error) throw error;
+    if (!data || data.length === 0) throw new Error('No hay datos disponibles');
 
-    // Transformar datos a tu estructura JSON original
-    menuData = {
-      menu: {
-        secciones: {}
-      }
-    };
-
-    sections.forEach(section => {
-      menuData.menu.secciones[section.name] = {
-        productos: [],
-        subsecciones: {}
-      };
-
-      if (section.menu_sub_sections && section.menu_sub_sections.length > 0) {
-        section.menu_sub_sections.forEach(subSection => {
-          menuData.menu.secciones[section.name].subsecciones[subSection.name] = {
-            nombre: subSection.name,
-            productos: subSection.menu_products.map(product => ({
-              nombre: product.name,
-              descripcion: product.description,
-              precio: product.price
-            }))
-          };
-
-          // Agrupar por categorías si existen
-          const productsByCategory = {};
-          subSection.menu_products.forEach(product => {
-            if (product.category) {
-              if (!productsByCategory[product.category]) {
-                productsByCategory[product.category] = [];
-              }
-              productsByCategory[product.category].push({
-                nombre: product.name,
-                descripcion: product.description,
-                precio: product.price
-              });
-            }
-          });
-
-          // Añadir categorías como propiedades
-          Object.entries(productsByCategory).forEach(([category, products]) => {
-            menuData.menu.secciones[section.name].subsecciones[subSection.name][category] = products;
-          });
-        });
-      } else {
-        // Procesar productos directos de la sección
-        menuData.menu.secciones[section.name].productos = section.menu_products?.map(product => ({
-          nombre: product.name,
-          descripcion: product.description,
-          precio: product.price
-        })) || [];
-      }
-    });
+    menuData = data[0].menu_json;
 
   } catch (error) {
-    console.error('Error cargando el menú:', error);
-    content.innerHTML = '<p>Error cargando el menú.</p>';
+    console.error('Error:', error);
+    content.innerHTML = '<p>Error cargando el menú. Recargue la página.</p>';
     return;
   }
 
