@@ -1,0 +1,1025 @@
+{
+  "menu": {
+    "secciones": {
+      "Platos": {
+        "subsecciones": {
+          "platos_calientes": {
+            "nombre": "Platos Calientes",
+            "productos": [
+              {
+                "nombre": "Parmesano Horcón",
+                "descripcion": "Exquisita combinación entre macha, loco y camarón en gratín de parmesano, mantequilla, vino blanco, crema y aliño.",
+                "precio": 20900
+              },
+              {
+                "nombre": "Machas parmesanas",
+                "descripcion": "12 unidades de macha en su concha, en gratín de parmesano, mantequilla, vino blanco, crema y aliño.",
+                "precio": 15900
+              },
+              {
+                "nombre": "Ostiones parmesanos",
+                "descripcion": "10 unidades de ostión en su concha, en gratín de parmesano, mantequilla, vino blanco, crema y aliño.",
+                "precio": 15800
+              },
+              {
+                "nombre": "Calugas de pescado con salsa tártara",
+                "descripcion": "",
+                "precio": 13800
+              },
+              {
+                "nombre": "Caldillo de congrio",
+                "descripcion": "Tradicional y exquisito congrio cocinado en su caldo, con verduras, papas, vino blanco, laurel y crema.",
+                "precio": 12800
+              },
+              {
+                "nombre": "Caldillo de vieja o mulata",
+                "descripcion": "Unico y tradicional caldillo de uno de los pescados de roca más ricos de la zona. \"Date el gusto de probarlo!\"",
+                "precio": 13900
+              },
+              {
+                "nombre": "Paila marina",
+                "descripcion": "Gran variedad de mariscos cocidos en fumet de pescado, mariscos y vino blanco.",
+                "precio": 10900
+              },
+              {
+                "nombre": "Pastel de locos",
+                "descripcion": "Laminas de locos en una base de chupe, cubierto con un gratín de queso parmesano.",
+                "precio": 16400
+              },
+              {
+                "nombre": "Pastel de jaiba",
+                "descripcion": "Carne de jaiba en un sofrito de verduras, bechamel y fumet de mariscos cubierto con un gratín de parmesano.",
+                "precio": 13800
+              },
+              {
+                "nombre": "Pastel de jaiba - camarón",
+                "descripcion": "Camarón y jaiba en un sofrito de verduras, bechamel y fumet de mariscos cubierto con un gratín de parmesano.",
+                "precio": 14800
+              }
+            ],
+            "de_la_casa": [
+              {
+                "nombre": "Risotto de locos",
+                "descripcion": "Arroz arboreo cocido en fumet de locos, vino blanco, queso parmesano, mantequilla y locos laminados.",
+                "precio": 15600
+              },
+              {
+                "nombre": "Salmón tropical",
+                "descripcion": "Salmón adobado en miel, mostaza y crocante de pistacho, ensalada de hojas verdes, gajos de naranja y nueces.",
+                "precio": 15800
+              },
+              {
+                "nombre": "Thai Playero",
+                "descripcion": "Reineta con crocante de luche, verduras salteadas al estilo thai, camarones y ostiones.",
+                "precio": 15800
+              },
+              {
+                "nombre": "Kawekura",
+                "descripcion": "Conejo ahumado a la cazerola, acompañado de longaniza y puré natural.",
+                "precio": 13600
+              },
+              {
+                "nombre": "Kadiforo",
+                "descripcion": "Sabrosas costillas de cerdo ahumado en pastelera de choclo, acompañado de la tradicional ensalada a la chilena.",
+                "precio": 14800
+              }
+            ],
+            "carnes": [
+              {
+                "nombre": "Lomo a lo pobre",
+                "descripcion": "300 g. de lomo de vacuno sobre papas fritas, cebolla caramelizada y huevo a la plancha.",
+                "precio": 13900
+              },
+              {
+                "nombre": "Suprema de pollo",
+                "descripcion": "Pechuga de pollo a la plancha + 2 agregados a elección",
+                "precio": 11800
+              }
+            ],
+            "pescados": [
+              {
+                "nombre": "Reineta",
+                "descripcion": "",
+                "precio": "8400 | 13800 + 2 agregados"
+              },
+              {
+                "nombre": "Congrio",
+                "descripcion": "",
+                "precio": "8400 | 13800 + 2 agregados"
+              },
+              {
+                "nombre": "Salmón",
+                "descripcion": "",
+                "precio": "8400 | 13800 + 2 agregados"
+              },
+              {
+                "nombre": "Atún",
+                "descripcion": "",
+                "precio": "8400 | 13800 + 2 agregados"
+              },
+              {
+                "nombre": "Pez de roca",
+                "descripcion": "",
+                "precio": "8800 | 14800 + 2 agregados"
+              },
+              {
+                "nombre": "Lenguado",
+                "descripcion": "",
+                "precio": "8800 | 14800 + 2 agregados"
+              },
+              {
+                "nombre": "Rollizo",
+                "descripcion": "",
+                "precio": "8800 | 14800 + 2 agregados"
+              },
+              {
+                "nombre": "Bilagay",
+                "descripcion": "",
+                "precio": "8800 | 14800 + 2 agregados"
+              },
+              {
+                "nombre": "Vieja",
+                "descripcion": "",
+                "precio": "8800 | 14800 + 2 agregados"
+              },
+              {
+                "nombre": "Merluza",
+                "descripcion": "",
+                "precio": "5600 | 9800 + 2 agregados"
+              }
+            ],
+            "agregados": [
+              {
+                "nombre": "Verduras salteadas",
+                "precio": 4600
+              },
+              {
+                "nombre": "Pastelera de choclo",
+                "precio": 4600
+              },
+              {
+                "nombre": "Ensalada frescura de verano",
+                "descripcion": "Tomates cherry, queso de cabra, albahaca y romero macerado en aceite de oliva",
+                "precio": 5600
+              },
+              {
+                "nombre": "Ensalada especial",
+                "descripcion": "Palmito, palta y lechuga",
+                "precio": 5600
+              },
+              {
+                "nombre": "Arroz",
+                "precio": 3000
+              },
+              {
+                "nombre": "Ensalada Chilena",
+                "precio": 3000
+              },
+              {
+                "nombre": "Arroz con choritos",
+                "precio": 4800
+              }
+            ]
+          },
+          "platos_frios": {
+            "nombre": "Platos Fríos",
+            "productos": [
+              {
+                "nombre": "Ceviche tradicional",
+                "descripcion": "Cubo de pescados frescos marinados en limón, jengibre, cebolla, cilantro y pimentones.",
+                "precio": 11800
+              },
+              {
+                "nombre": "Ceviche mar y tierra",
+                "descripcion": "Cubo de pescados frescos, camarón y palta, marinado en limón, jengibre, choclo, cilantro y pimentones.",
+                "precio": 12800
+              },
+              {
+                "nombre": "Ceviche mar y tierra con pez de roca",
+                "descripcion": "Cubo de pescados frescos, camarón y palta, marinado en limón, jengibre, choclo, cilantro y pimentones.",
+                "precio": 14800
+              },
+              {
+                "nombre": "Jardín de mariscos",
+                "descripcion": "Exquisita selección de mariscos frescos, salsa verde y nuestro clásico ceviche.",
+                "precio": 24800
+              },
+              {
+                "nombre": "Locos de patio",
+                "descripcion": "Trío de locos montados sobre palta, mix de hojas, acompañados de camarón a la mostaza.",
+                "precio": 18900
+              }
+            ],
+            "de_la_casa": [
+              {
+                "nombre": "Chinguillo de mariscos",
+                "descripcion": "Mariscal frío con pulpo, loco, camarón y ostión, servido sobre una leche de tigre de almejas, acompañado con zapallo especiado y asado.",
+                "precio": 15600
+              },
+              {
+                "nombre": "Quínoa proteica",
+                "descripcion": "Ensalada de quínoa, tomate cherry, cubos de pepino, palta, cebolla morada y tofu de la casa.",
+                "precio": 10800
+              }
+            ]
+          },
+          "entradas_calientes": {
+            "nombre": "Entradas Calientes",
+            "productos": [
+              {
+                "nombre": "Locos apanados",
+                "descripcion": "Locos frescos apanados en panko y acompañados con salsa especial de la casa.",
+                "precio": 18900
+              },
+              {
+                "nombre": "Lapas apanadas",
+                "descripcion": "Lapas frescas apanadas en panko, acompañadas con salsa san Juan.",
+                "precio": 10600
+              },
+              {
+                "nombre": "Pinzas picantes",
+                "descripcion": "Hermosas pinzas de jaiba salteadas en aceite de oliva, ají ahumado, ajo y cilandro, acompañadas de guacamole.",
+                "precio": 13400
+              },
+              {
+                "nombre": "Parmesano Horcón",
+                "descripcion": "Exquisita combinación entre macha, loco y camarón en gratín de parmesano, mantequilla, vino blanco, crema y aliño.",
+                "precio": 20900
+              },
+              {
+                "nombre": "Machas parmesanas",
+                "descripcion": "12 unidades de macha en su concha, en gratín de parmesano, mantequilla, vino blanco, crema y aliño.",
+                "precio": 15900
+              },
+              {
+                "nombre": "Ostiones parmesanos",
+                "descripcion": "10 unidades de ostión en su concha, en gratín de parmesano, mantequilla, vino blanco, crema y aliño.",
+                "precio": 15800
+              },
+              {
+                "nombre": "Camarones al Pil-Pil",
+                "descripcion": "Camarones salteados en aceite de olvida, azafrán, ají ahumado, ajo y cilantro.",
+                "precio": 14800
+              }
+            ]
+          },
+          "chorrillanas": {
+            "nombre": "Chorrillanas",
+            "productos": [
+              {
+                "nombre": "Carnivora",
+                "descripcion": "Base de papas fritas, carne de res, pollo, longaniza, cebolla caramelizada y huevo a la plancha.",
+                "precio": 21800
+              },
+              {
+                "nombre": "Marinera",
+                "descripcion": "Base de papas fritas, camarón ecuatoriano, jaibas, ostiones, anillos de calamar, pinzas de jaiba, choritos, picorocos y salsa bechamel.",
+                "precio": 24800
+              },
+              {
+                "nombre": "Vegana",
+                "descripcion": "Base de papas fritas, champiñones, tomate cherry, zapallo italiano, pimentón, cebolla morada, jengibre, cebollín y cubos de tofu de la casa.",
+                "precio": 16600
+              }
+            ]
+          },
+          "empanadas": {
+            "nombre": "Empanadas",
+            "productos": [
+              {
+                "nombre": "Loco queso",
+                "precio": 5000
+              },
+              {
+                "nombre": "Machas queso",
+                "precio": 5000
+              },
+              {
+                "nombre": "Pulpo al ajillo queso",
+                "precio": 5000
+              },
+              {
+                "nombre": "Camarón queso",
+                "precio": 4000
+              },
+              {
+                "nombre": "Jaiba queso",
+                "precio": 4000
+              },
+              {
+                "nombre": "Pino marisco",
+                "precio": 4000
+              },
+              {
+                "nombre": "Carne queso",
+                "precio": 4000
+              },
+              {
+                "nombre": "Champiñón, choclo queso",
+                "precio": 4000
+              },
+              {
+                "nombre": "Vegetariana",
+                "precio": 3500
+              },
+              {
+                "nombre": "Queso",
+                "precio": 2900
+              },
+              {
+                "nombre": "Camarón jaiba",
+                "precio": 5000
+              }
+            ],
+            "agregados": [
+              {
+                "nombre": "Agregado de algun ingrediente",
+                "precio": 1000
+              }
+            ]
+          },
+          "postres": {
+            "nombre": "Postres",
+            "productos": [
+              {
+                "nombre": "Celestino con helado",
+                "descripcion": "Dos panqueques rellenos con manjar, acompañados de una bola de helado de vainilla, decorado con crema topping de chocolate y marrasquino.",
+                "precio": 4800
+              },
+              {
+                "nombre": "Copa de helado",
+                "descripcion": "3 sabores de helado decorado con topping de chocolate, galletas, crema y marrasquino.",
+                "precio": 5500
+              },
+              {
+                "nombre": "Café helado",
+                "descripcion": "x",
+                "precio": "x"
+              }
+            ]
+          }
+        }
+      },
+      "Bebidas": {
+        "productos": [
+          {
+            "nombre": "Jugos naturales",
+            "precio": 3800
+          },
+          {
+            "nombre": "AFE",
+            "descripcion": "Manzana verde, manzana roja, ciruela y pera",
+            "precio": 3800
+          },
+          {
+            "nombre": "Berry Sur",
+            "descripcion": "Arándanos, Berry, frambuesa - arándanos",
+            "precio": 3800
+          },
+          {
+            "nombre": "Bebidas",
+            "precio": 2200
+          },
+          {
+            "nombre": "Limonada",
+            "descripcion": "Menta y jengibre",
+            "precio": 4300
+          },
+          {
+            "nombre": "Limonada",
+            "descripcion": "Mango, maracuyá y frambuesa",
+            "precio": 4800
+          },
+          {
+            "nombre": "Redbull",
+            "descripcion": "Maqui, sandia, maracuyá",
+            "precio": 3000
+          },
+          {
+            "nombre": "Limonada de Bugambilia",
+            "precio": 4500
+          },
+          {
+            "nombre": "Kombucha",
+            "descripcion": "Cedrón, jengibre, arandano y té verde",
+            "precio": 3800
+          },
+          {
+            "nombre": "Expresso",
+            "precio": 3300
+          },
+          {
+            "nombre": "Té / Café",
+            "precio": 1500
+          },
+          {
+            "nombre": "Ice coffee",
+            "precio": 3500
+          }
+        ]
+      },
+      "Bar": {
+        "subsecciones": {
+          "cocteleria_autor": {
+            "nombre": "Coctelería de autor",
+            "productos": [
+              {
+                "nombre": "Spider Mule",
+                "descripcion": "Jack Daniel's manzana, Drambuie, maracuyá, concentrado de jengibre y agua tónica.",
+                "precio": 8500
+              },
+              {
+                "nombre": "Verano naranja",
+                "descripcion": "Gin saborizado de naranja, maracuyá, sirope simple y agua tónica premium.",
+                "precio": 8500
+              },
+              {
+                "nombre": "Kom-fusión",
+                "descripcion": "Kombucha, whisky de canela, limón, naranja y sirope de miel.",
+                "precio": 8500
+              },
+              {
+                "nombre": "Conciencia",
+                "descripcion": "Gin, ron de coco, cordial de pomelo, limón y agua tónica.",
+                "precio": 7200
+              },
+              {
+                "nombre": "Piston berries",
+                "descripcion": "Pisco, licor de casis, limón, frutos rojos y agua tónica.",
+                "precio": 7200
+              },
+              {
+                "nombre": "Raulillo",
+                "descripcion": "Tequila, sirope de cacho de cabra, mango y limón.",
+                "precio": 8500
+              },
+              {
+                "nombre": "Orgasmo",
+                "descripcion": "Vodka, crema, amaretto, licor de café y crema irlandesa, adornado con crema chantilly, cereza marrasquino y chocolate.",
+                "precio": 7000
+              },
+              {
+                "nombre": "Mojito ramazzotti",
+                "descripcion": "Ron blanco, limón sutil, sirope simple, menta, ramazzotti y agua con gas.",
+                "precio": 7200
+              },
+              {
+                "nombre": "Especial pomelo",
+                "descripcion": "Aperol, cordial de pomelo, limón y sirope simple.",
+                "precio": 7200
+              },
+              {
+                "nombre": "Applecello",
+                "descripcion": "Jack Daniel's manzana, limoncello, sirope de manzana y jugo de melón.",
+                "precio": 8500
+              },
+              {
+                "nombre": "Ponche de erizo",
+                "descripcion": "Lenguas de erizos, pisco, vino blanco, huevo, licor de cacao, canela y azúcar.",
+                "precio": 4500
+              },
+              {
+                "nombre": "Pinky Promise",
+                "descripcion": "Gin frutilla, pulpa de frambuesa, frutos rojos, cordial de frambuesa, limón y tónica.",
+                "precio": 8500
+              }
+            ]
+          },
+          "cocteleria_clasica": {
+            "nombre": "Coctelería clásica",
+            "subcategorias": {
+              "sour": {
+                "productos": [
+                  {
+                    "nombre": "Pisco",
+                    "precio": "5500 - 8900",
+                    "tamaño": "Normal - Catedral"
+                  },
+                  {
+                    "nombre": "Chardonnay",
+                    "precio": "5500 - 8900",
+                    "tamaño": "Normal - Catedral"
+                  },
+                  {
+                    "nombre": "Amaretto",
+                    "precio": "5500 - 8900",
+                    "tamaño": "Normal - Catedral"
+                  },
+                  {
+                    "nombre": "Whisky",
+                    "precio": "6500 - 9800",
+                    "tamaño": "Normal - Catedral"
+                  },
+                  {
+                    "nombre": "Jeres",
+                    "precio": "6500 - 9800",
+                    "tamaño": "Normal - Catedral"
+                  },
+                  {
+                    "nombre": "Mango o maracuyá",
+                    "precio": "6500 - 9800",
+                    "tamaño": "Normal - Catedral"
+                  }
+                ]
+              },
+              "piscos": {
+                "productos": [
+                  {
+                    "nombre": "Horcón quemado 1 año",
+                    "precio": 5500
+                  },
+                  {
+                    "nombre": "Monje negro 35°",
+                    "precio": 5500
+                  },
+                  {
+                    "nombre": "Fundo los nichos 35°",
+                    "precio": 5500
+                  },
+                  {
+                    "nombre": "Horcón quemado 2 años",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Monje negro blend",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Monje negro premium",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Alto del carmen doble destilado",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Espíritu del Elqui 40°",
+                    "precio": 6000
+                  }
+                ]
+              },
+              "ron": {
+                "productos": [
+                  {
+                    "nombre": "Mojito",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Daiquiri",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Mojito sabores",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Piña colada",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Mango colado",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Mojito torobayo",
+                    "precio": 7800
+                  }
+                ]
+              },
+              "tequila": {
+                "productos": [
+                  {
+                    "nombre": "Tequila margarita",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Paloma",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Tequila sunrise",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Margarita blue",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Margarita fresa",
+                    "precio": 6500
+                  }
+                ]
+              },
+              "whisky": {
+                "productos": [
+                  {
+                    "nombre": "Lynchburg lemonade",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Old fashioned",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Godfather",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Boulevardier",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Penicillin",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "American Mule",
+                    "precio": 7400
+                  },
+                  {
+                    "nombre": "Clavo oxidado",
+                    "precio": 8500
+                  }
+                ]
+              },
+              "vodka": {
+                "productos": [
+                  {
+                    "nombre": "Ruso blanco",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Expresso martini",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Cosmopolitan",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Pantera rosa",
+                    "precio": 6500
+                  },
+                  {
+                    "nombre": "Moscow Mule",
+                    "precio": 6800
+                  },
+                  {
+                    "nombre": "Bloody Mary",
+                    "precio": 7500
+                  }
+                ]
+              },
+              "otros": {
+                "productos": [
+                  {
+                    "nombre": "B-52",
+                    "precio": 5000
+                  },
+                  {
+                    "nombre": "Vaina",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Long island ice tea",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Caipiriña",
+                    "precio": 6000
+                  },
+                  {
+                    "nombre": "Toasted Almond",
+                    "precio": 6500
+                  }
+                ]
+              }
+            }
+          },
+          "cervezas": {
+            "nombre": "Cervezas",
+            "subcategorias": {
+              "schop_500cc": {
+                "productos": [
+                  {
+                    "nombre": "Austral Patagonia Calafate",
+                    "precio": 5500
+                  },
+                  {
+                    "nombre": "Austral Patagonia Torres del Paine",
+                    "precio": 5500
+                  },
+                  {
+                    "nombre": "Puchuncabeer",
+                    "nota": "*sujeta a stock",
+                    "precio": 5500
+                  }
+                ]
+              },
+              "botella_330cc": {
+                "productos": [
+                  {
+                    "nombre": "Austral Patagonia Calafate",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Austral Patagonia Lager",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Austral Patagonia Yagán",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Modelo Especial",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Negra Modelo",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "D'olbek Maqui",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "D'olbek Lager Belga",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "D'olbek Ale",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Kunstmann Torobayo",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Kunstmann Miel",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Kunstmann Arandanos",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Kunstmann Lager Sin Alcohol",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Volcanes del Sur",
+                    "nota": "*sujeta a stock",
+                    "descripcion": "Amber Ale, Lucuma, Chocolate, premium lager",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Puchuncabeer",
+                    "nota": "*sujeta a stock",
+                    "descripcion": "NEIPA, Blonde, Amber Ale, Stout, Blonde Ale, IPA.",
+                    "precio": 4500
+                  },
+                  {
+                    "nombre": "Royal Guard",
+                    "precio": 3500
+                  },
+                  {
+                    "nombre": "Royal Guard Sin Alcohol",
+                    "precio": 3500
+                  },
+                  {
+                    "nombre": "Heineken",
+                    "precio": 3500
+                  },
+                  {
+                    "nombre": "Heineken Sin Alcohol",
+                    "precio": 3500
+                  },
+                  {
+                    "nombre": "Sol",
+                    "precio": 3500
+                  }
+                ]
+              }
+            }
+          },
+          "vinos_espumantes": {
+            "nombre": "Vinos y espumantes",
+            "subcategorias": {
+              "vinos": {
+                "productos": [
+                  {
+                    "nombre": "Copa de vino",
+                    "precio": 3400
+                  },
+                  {
+                    "nombre": "Misiones de rengo 375cc",
+                    "precio": 7200
+                  },
+                  {
+                    "nombre": "Late harvest (misiones de rengo 375cc)",
+                    "precio": 9800
+                  },
+                  {
+                    "nombre": "Casillero del diablo 375cc",
+                    "precio": 7200
+                  },
+                  {
+                    "nombre": "Misiones de rengo reserva 750cc",
+                    "precio": 12900
+                  },
+                  {
+                    "nombre": "Casillero del diablo 750cc",
+                    "precio": 12900
+                  },
+                  {
+                    "nombre": "Castillo de molina",
+                    "precio": 8900
+                  },
+                  {
+                    "nombre": "Late harvest (castillo de molina 500cc)",
+                    "precio": 12900
+                  },
+                  {
+                    "nombre": "Castillo de molina reserva 750cc",
+                    "precio": 18900
+                  }
+                ]
+              },
+              "espumantes": {
+                "productos": [
+                  {
+                    "nombre": "Copa de Espumante",
+                    "precio": 3400
+                  },
+                  {
+                    "nombre": "Viñamar Brut 375cc",
+                    "precio": 8400
+                  },
+                  {
+                    "nombre": "Viñamar Brut 750cc",
+                    "precio": 12800
+                  },
+                  {
+                    "nombre": "Opera Pink",
+                    "precio": 10800
+                  },
+                  {
+                    "nombre": "Opera Blue",
+                    "precio": 10800
+                  }
+                ]
+              }
+            }
+          },
+          "tragos_espumante": {
+            "nombre": "Tragos con espumante",
+            "productos": [
+              {
+                "nombre": "Mimosa",
+                "precio": 4000
+              },
+              {
+                "nombre": "Kir Royal",
+                "precio": 5500
+              },
+              {
+                "nombre": "Ramazzotti Rosato",
+                "precio": 6900
+              },
+              {
+                "nombre": "Ramazzotti Violetto",
+                "precio": 6900
+              },
+              {
+                "nombre": "Aperol",
+                "precio": 6900
+              }
+            ]
+          },
+          "mocktails": {
+            "nombre": "Mocktails",
+            "productos": [
+              {
+                "nombre": "Mango colado",
+                "precio": 4900
+              },
+              {
+                "nombre": "Piña colada",
+                "precio": 4900
+              },
+              {
+                "nombre": "Mojito sabores",
+                "precio": 4900
+              },
+              {
+                "nombre": "Michelada",
+                "precio": 4900
+              }
+            ]
+          },
+          "gin": {
+            "nombre": "Gin",
+            "productos": [
+              {
+                "nombre": "Gin tonic o gin con gin",
+                "descripcion": "Tanqueray, Bombay, Beefeater, Gordon's",
+                "precio": 5500
+              },
+              {
+                "nombre": "Gin Hendrick's",
+                "precio": 7500
+              },
+              {
+                "nombre": "Negroni",
+                "precio": 7500
+              },
+              {
+                "nombre": "Tropical Gin",
+                "precio": 6500
+              },
+              {
+                "nombre": "London Mule",
+                "precio": 6800
+              },
+              {
+                "nombre": "French 75",
+                "precio": 6000
+              },
+              {
+                "nombre": "Tom Collins",
+                "precio": 6000
+              },
+              {
+                "nombre": "Dry Martini",
+                "precio": 6000
+              },
+              {
+                "nombre": "Brumble Chambord",
+                "precio": 8500
+              },
+              {
+                "nombre": "Brumble licord de mora de la casa",
+                "precio": 6500
+              }
+            ]
+          },
+          "bajativos": {
+            "nombre": "Bajativos",
+            "productos": [
+              {
+                "nombre": "Araucano",
+                "precio": 4000
+              },
+              {
+                "nombre": "Jägermeister",
+                "precio": 4000
+              },
+              {
+                "nombre": "Menta",
+                "precio": 3000
+              },
+              {
+                "nombre": "Manzanilla",
+                "precio": 3000
+              },
+              {
+                "nombre": "Amaretto",
+                "precio": 3000
+              },
+              {
+                "nombre": "Limoncello",
+                "precio": 3000
+              },
+              {
+                "nombre": "Cordiales",
+                "precio": 3000
+              }
+            ]
+          },
+          "tequila": {
+            "nombre": "Tequila",
+            "productos": [
+              {
+                "nombre": "Tequilazo 30cc",
+                "precio": 2000
+              },
+              {
+                "nombre": "Tequilazo 60cc",
+                "precio": 3000
+              }
+            ]
+          },
+          "otros": {
+            "nombre": "Otros",
+            "productos": [
+              {
+                "nombre": "Terremoto",
+                "precio": 4500
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
