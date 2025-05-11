@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   // <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 
   // 2. Configura Supabase
-  const supabaseUrl = 'https://tu-proyecto.supabase.co';
-  const supabaseKey = 'tu-clave-publica-anon-key';
+  const supabaseUrl = 'https://gutkmqzszforlhgesrei.supabase.co';
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd1dGttcXpzemZvcmxoZ2VzcmVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5ODI3MTMsImV4cCI6MjA2MjU1ODcxM30.kKl4deZplQMq_vPBVsMIRuPLkhQ177TNT-ahMXS-jyQ';
   
   // 3. Inicializa Supabase correctamente
   const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
