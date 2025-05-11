@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   renderSidebar();
   
   // Renderizar la barra lateral principal
-  function renderSidebar() {
+  function renderSidebar
+() {
     sidebar.innerHTML = '';
     for (const [sectionKey, sectionData] of Object.entries(menuData.menu.secciones)) {
       const inputId = `section-${sectionKey}`;
