@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   try {
     // Solicitar los datos de la API que creamos en Vercel
-    const response = await fetch('/api/menu');
+    const response = await fetch('/api/menu.js');
     if (!response.ok) throw new Error('No se pudo cargar el menú desde la API');
     menuData = await response.json();
   } catch (error) {
